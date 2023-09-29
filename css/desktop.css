@@ -1,0 +1,363 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Mukta', sans-serif;
+font-family: 'Old Standard TT', serif;
+}
+.menu a{
+    text-decoration: none;
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #ACA592;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    height: 80px;
+    background-color: #181511 ;
+}
+.navbar-row{
+    display: flex;
+    justify-content: space-between;
+    line-height: 80px;
+}
+.row-left{
+    display: flex;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.left-img img{
+    margin-right: 20px;
+}
+.menu li{
+    margin-left: 40px;
+}
+.menu .active{
+    color: #FFAE2B;;
+}
+.row-btn{
+    background: #181511;
+border-radius: 5px;
+color: #FFFFFF;
+border: 1px solid #FFAE2B;
+padding: 18px;
+cursor: pointer;
+transition: 0.8s;
+}
+.row-btn:hover{
+    background-color:#FFAE2B;
+}
+.header{
+    background-image: url(/img/IMAGE.png);
+    background-repeat: no-repeat;
+    height: 616px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.header-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-bottom: 15px;
+color: #FFAE2B;
+
+}
+.header-title h1{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 80px;
+text-align: center;
+letter-spacing: 1px;
+width: 869px;
+color: #FFFFFF;
+padding-bottom: 35px;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+}
+.header-btns{
+    background: #FFAE2B;
+border-radius: 3px;
+border: 0;
+padding: 14px 24px;
+}
+.header-btn{
+    text-align: center;
+}
+#main{
+    background-color: #181511;
+    height: 2730px;
+}
+.main-title{
+    padding-top: 152px;
+}
+.main-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #ACA592;
+}
+.main-title h2{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+color: #FFAE2B;
+}
+.main-content{
+    width: 32.1%;
+    padding: 30px;
+    border: 1px solid #4B4136;
+    margin: 7px;
+}
+.main-text h4{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+text-align: center;
+font-size: 13px;
+line-height: 23px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.main-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.main-body-img{
+    background-color: #181511;
+    height: 500px;
+    width: 100%;
+}
+.main-body-img img{
+    margin-top: 121px;
+    height: 450px;
+    width: 1518px;
+}
+.service{
+    height: 752px;
+    background-color: #181511;
+}
+.service-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #ACA592;
+}
+.service-title h2{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+text-align: center;
+color: #FFAE2B;
+}
+.service-title{
+    padding-top: 180px;
+}
+.card-img img{
+    height: 60px;
+    width: 60px;
+}
+.row-title h2{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 40px;
+color: #FFAE2B;
+margin-top: 20px;
+}
+.row-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 26px;
+color: #ACA592;
+padding-top: 10px;
+}
+.row-title p{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 26px;
+color: #ACA592;
+}
+.row-card{
+    border: 1px solid #4B4136;
+    width: 33.3%;
+    padding: 60px;
+}
+.service-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 63px;
+}
+.row-card:nth-child(2){
+    margin-top: 5px;
+}
+.row-card:nth-child(3){
+    margin-top: 15px;
+}
+.desktop{
+    background-color: #181511;
+}
+.insta{
+    margin: 30px;
+    width: 180px;
+    height: 200px;
+}
+.desktop-img{
+    text-align: center;
+}
+.desktop-img img{
+    width: 217px;
+}
+.col{
+    background-color: #181511;
+    height: 764px;
+}
+.col-title{
+    padding-top: 125px;
+}
+.col-title h1{
+    text-align: center;
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 70px;
+color: #FFAE2B;
+margin-bottom: 20px;
+}
+.col-title p{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 28px;
+text-align: center;
+color: #ACA592;
+}
+.col-box-top{
+    width: 420px;
+    height: 59px;
+    background-color: #181511;
+    border: 1px solid #4B4136;
+}
+.col-box-bottom{
+    width: 420px;
+    height: 50px;
+    background-color:#FFAE2B;;
+}
+.col-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 82px;
+}
+.col-text h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+text-align: center;
+color: #ACA592;
+margin-top: 35px;
+}
+.col-imgs{
+    border: 1px solid #4B4136;
+    width: 48px;
+    height: 48px;
+    margin: 5px;
+    margin-top: 21px;
+}
+.col-imgs img{
+    padding: 13px 0 0 13px;
+}
+.col-img{
+    display: flex;
+    justify-content: center;
+}
+.col-bottom-title{
+    display: flex;
+    justify-content: space-between;
+}
+.col-left-title{
+    display: flex;
+    align-items: center;
+}
+.col-left-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 22px;
+color: #ACA592;
+margin-right: 5px;
+}
+.col-left-title h4{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #FFAE2B;
+}
+.col-right-title{
+    display: flex;
+    align-items: center;
+}
+.col-right-title h5{
+    font-family: 'Old Standard TT';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 30px;
+color: #FFAE2B;
+margin: 10px;
+}
